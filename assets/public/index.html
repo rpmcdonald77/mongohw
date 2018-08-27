@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mongo Scraper</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/materia/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\ryan\Documents\Bootcamp\mongohw\assets\public\style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="C:\Users\ryan\Documents\Bootcamp\mongohw\assets\public\index.js"></script>
+<script src="C:\Users\ryan\Documents\Bootcamp\mongohw\assets\mongo.js"></script>
+<script src="C:\Users\ryan\Documents\Bootcamp\mongohw\server\server.js"></script>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="\">Mongo Scraper</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href=".\index.html">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="C:\Users\ryan\Documents\Bootcamp\mongohw\assets\public\saved.html">Saved Articles</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <div class="overlay">
+  </div>
+  <div class="background-image">
+  </div>
+  <div class="caption">
+    <h1>Mongo Scraper</h1>
+    <p>New York Times Edition</p>
+  </div>
+</div>
+<div class="container-fluid article-container">
+  <div data-_id="5b7b463e25fa1e0014a76bcf" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/style/olympics-reality-show.html">Who Wants to Bea Gold Medalist?</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">The Olympics has reality show auditions now, and they seem to be working.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b9d" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/opinion/family-immigration-grandparents.html">America Needs Its Immigrant Grandparents</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Republicans who want to cut family-based immigration don’t understand families.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b9b" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/books/review-fashion-climbing-bill-cunningham-memoir.html">Bill Cunningham’sMemoir Is ‘a Real Dilly’</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">In his posthumous book, the Times’s fashion and society photographer recalls his days as a man about town.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b99" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/world/asia/new-zealand-pregnant-minister-bicycle.html">Pregnant Minister Cycles to Hospital to Give Birth</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Julie Anne Genter, New Zealand’s minister for women’s affairs, posted photographs on social media of her “mostly downhill” trip to a hospital, where she was due to have labor induced.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b98" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/arts/television/mystery-road-review-judy-davis.html">Review: In ‘Mystery Road,’ Judy Davis Goes West</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">In a six-episode Australian series, an Indigenous detective and an outback sergeant team up in classic western fashion.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b97" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/world/australia/turnbull-energy-emissions-climate-change.html">Australian Prime Minister Abandons Climate Targets, Bowing to Party Pressure</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">On Monday, Malcolm Turnbull announced he would delay a climate and energy policy that divided senior figures in the Australian government.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b96" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/series/gender-letter">Gender Letter</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Subscribe to the Gender Letter, a weekly take on news, trends and culture. This week: the sound of glass shattering ahead of the midterms.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b95" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/16/science/ants-worker-idleness.html">The Secret to Ant Efficiency Is Idleness</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">To dig a nest tunnel quickly and get the most out of their efforts, 30 percent of fire ants do 70 percent of the work.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b94" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/arts/television/sacha-baron-cohen-lawsuits-who-is-america.html">You Can Sue Sacha Baron Cohen. Winning’s Another Issue.</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Mr. Cohen has been sued many times. There’s a reason he rarely loses: His unsuspecting subjects don’t read the fine print.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b93" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/world/middleeast/israel-weddings-orthodox-alternatives.html">A Culture War Under the Wedding Canopy in Israel</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">A rebellion is playing out in tuxedos and lace as Israelis reject the strictly Orthodox monopoly over marriage and divorce.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b91" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/technology/cryptocurrency-investor-losses.html">They Bet Big on Cryptocurrencies. And They Got Burned.</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">The number of people who bought virtual currencies more than doubled last winter. For people who got in late, the bust has been disastrous.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b92" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/business/china-missing-pharmacist.html">Why a Pharmacist’s Disappearance Has Captivated China</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">A Chinese pharmacist who had been diagnosed with stomach cancer left home six months ago, fearing he could not pay his treatment costs. His parents are still searching for him.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b90" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/interactive/2018/well/well-food-label-guide.html">How to Read a Food Label</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">All the information stacked on food packaging can be confusing, but we’ll show you what you should focus on to really know what’s in your food.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b8e" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/briefing/korean-families-kerala-asia-argento.html">Your Tuesday Briefing</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Here’s what you need to know to start your day.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b8d" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/briefing/trump-asia-argento-elon-musk.html">Your Evening Briefing</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Here’s what you need to know at the end of the day.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b8f" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/10/smarter-living/how-to-negotiate-salary.html">How to Be an Ace Salary Negotiator (Even if You Hate Conflict)</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Here’s how to fight for a better salary when you loathe uncomfortable conversations.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b8c" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/us/politics/epa-coal-emissions-standards-william-wehrum.html">Top E.P.A. Official Is Set to Deliver a Big Win to Ex-Clients</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">William E. Wehrum, the top air pollution official in the Trump administration, was a lawyer for polluting industries.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b8b" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/business/tesla-elon-musk-finances-cash.html">Tesla Slashes Spending, and May Add to Its Troubles</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">The electric-car maker’s cash position was closely watched even before its chief executive, Elon Musk, floated the idea of taking the company private.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b8a" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/world/europe/pope-sexual-abuse-letter.html">In Letter to 1.2 Billion Catholics, Pope Cites Sex Abuse ‘Atrocities’</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">“We showed no care for the little ones; we abandoned them,” Pope Francis wrote, urging all Catholics to fight the culture that had enabled sexual abuse.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b89" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/us/asia-argento-assault-jimmy-bennett.html">Asia Argento Madea Deal With HerOwn Accuser</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">The actress and director, who was among the first women in the movie business to publicly accuse Harvey Weinstein, arranged to pay an actor after he said she sexually assaulted him when he was 17, documents show.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b88" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/world/asia/kim-jong-un-north-korea-economy-nuclear-talks.html">Kim Jong-un Focuses on Economy as Talks With U.S. Stall</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">North Korea’s leader is lashing out against economic missteps as he turns his attention to building prosperity. But he needs American cooperation.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b87" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/20/world/asia/china-malaysia.html">Malaysia Resists China’s Investments, Fearing ‘Colonialism’</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">A country that once courted Chinese investment now fears becoming overly indebted for projects that are neither viable nor necessary — except to China.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b86" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/us/politics/don-mcgahn-trump-mueller.html">Trump Lawyers Don’t Know What Mueller’s Team Has Been Told</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Although Mr. Trump’s lawyers said that they were confident that the White House counsel, Donald F. McGahn II, had said nothing injurious to the president, the lapse has fueled concerns.</div>
+  </div>
+    <div data-_id="5b7b3f4d25fa1e0014a76b85" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/08/19/nyregion/michael-cohen-loans-donald-trump.html">$20 Million in Loans to Trump Lawyer Spurs a Fraud Inquiry</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">Federal authorities investigating whether Michael D. Cohen, President Trump’s former personal lawyer, committed bank and tax fraud have zeroed in on loans obtained by taxi businesses that he and his family own.</div>
+  </div>
+   </div>
+
+<footer class="footer">
+  <div class="container">
+    <p>New York Times Mongo Scraper</p>
+  </div>
+</footer>
+
+</body>
+
+</html>
